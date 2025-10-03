@@ -2,7 +2,7 @@
 
 A decentralized voting application for the Ethiopian Election 2018.
 <!-- Add screenshot -->
-![Screenshot](./screenshot.png)
+![Screenshot](./screenshot1.png)
 ## Features
 
 - 🗳️ Decentralized voting on Ethereum
