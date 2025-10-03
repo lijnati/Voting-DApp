@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  * {
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  body {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+  }
+}
+
+@layer components {
+  .glass-card {
+    @apply bg-white/10 backdrop-blur-lg border border-white/20 rounded-2xl shadow-xl;
+  }
+  
+  .gradient-text {
+    @apply bg-gradient-to-r from-yellow-400 via-red-500 to-pink-500 bg-clip-text text-transparent;
+  }
+  
+  .ethiopian-gradient {
+    background: linear-gradient(135deg, #009639 0%, #FFCD00 50%, #CE1126 100%);
+  }
+  
+  .vote-button {
+    @apply bg-gradient-to-r from-green-500 to-blue-600 hover:from-green-600 hover:to-blue-700 text-white font-semibold py-3 px-6 rounded-xl shadow-lg transform hover:scale-105 transition-all duration-200;
+  }
+  
+  .vote-button:disabled {
+    @apply bg-gray-400 hover:bg-gray-400 transform-none cursor-not-allowed;
+  }
+}
