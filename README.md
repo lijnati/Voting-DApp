@@ -1,4 +1,4 @@
-# EthioVote: Blockchain Voting DApp
+# EthioVote: A Decentralized Voting DApp
 
 A decentralized voting application for the Ethiopian Election 2018.
 <!-- Add screenshot -->
