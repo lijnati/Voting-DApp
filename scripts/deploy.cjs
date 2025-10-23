@@ -42,10 +42,6 @@ async function main() {
     console.log(`${i + 1}. ${name} (${voteCount} votes)`);
   }
 
-//   console.log("\n Next Steps:");
-//   console.log("1. Update CONTRACT_ADDRESS in src/hooks/useVoting.js");
-//   console.log("2. Replace the address with:", contractAddress);
-//   console.log("3. Run 'npm run dev' to test the DApp");
 
   // here we save the deployment info
   const deploymentInfo = {

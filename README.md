@@ -65,7 +65,7 @@ The deployment script will:
 After deployment, update the contract address in `src/hooks/useVoting.js`:
 
 ```javascript
-const CONTRACT_ADDRESS = 'YOUR_DEPLOYED_CONTRACT_ADDRESS'
+const CONTRACT_ADDRESS = '0x54526A0556E4F50b4032eceEE85c60fa4F6AAd8d''
 ```
 
 ### 6. Run the DApp
